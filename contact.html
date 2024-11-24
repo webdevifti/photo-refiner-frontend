@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html lang="gb">
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="en">
   <head>
-    <base />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
     <meta name="robots" content="all, follow" />
-    <title>Contact</title>
-    <meta name="description" content="Contact" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="copyright" content="" />
-    <meta name="author" content="Radim Malinic" />
-    <link rel="icon" href="../favicon.ico" />
-    <meta name="twitter:title" content="Contact" />
-    <meta name="twitter:description" content="Contact" />
-    <meta name="twitter:url" content="." />
-    <meta name="twitter:image" content="" />
+    <meta name="author" content="" />
+    
     <meta property="og:url" content="." />
     <meta property="og:image" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contact" />
-    <meta property="og:site_name" content="Contact" />
-    <meta property="og:description" content="Contact" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <title>Contact</title>
+    <link rel="icon" href="./assets/img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/egn2qdn.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/p1f48.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/wincss.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -35,32 +29,35 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
   />
-    <style>
-      .Fform .col6,
-      .Fform .col12 {
-        padding: 10px;
-      }
-      .Finp1 {
-        width: 100%;
-        min-width: 280px;
-        font-family: adobe-caslon-pro, serif;
-        font-size: 18px;
-        color: #000;
-        background-color: #fff;
-        border: 1px solid #000;
-        margin: 0;
-        padding: 10px 20px 5px 20px;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-      }
-      .Fsend {
-        color: #000;
-      }
-      .Fsend:hover {
-        color: #000;
-      }
-    </style>
+  <style>
+    .Fform .col6,
+    .Fform .col12 {
+      padding: 10px;
+    }
+    .Finp1 {
+      width: 100%;
+      min-width: 280px;
+      font-family: adobe-caslon-pro, serif;
+      font-size: 18px;
+      color: #000;
+      background-color: #fff;
+      border: 1px solid #000;
+      margin: 0;
+      padding: 10px 20px 5px 20px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+    .Fsend {
+      color: #fff;
+      padding: 15px 25px;
+      background-color: #000;
+      cursor: pointer;
+      border: none;
+      outline: none;
+
+    }
+  </style>
   </head>
   <body>
      <div class="bs-canvas bs-canvas-right">
@@ -214,16 +211,16 @@
               <div class="col1 Aleft"></div>
 
               <div class="col6 Aleft animated fadeInUpShort delay-250">
+              <form action="">
                 <div class="Fform">
                   <div class="col6">
                     <input
                       type="text"
                       id="Fname"
                       class="Finp1"
-                      value="Your name"
-                      title="Your name"
-                      onfocus="if(this.value==this.title)this.value=''"
-                      onblur="if(this.value==''){this.value=this.title}"
+                      placeholder="Your name"
+                      
+                    
                     />
                   </div>
                   <div class="col6">
@@ -231,10 +228,8 @@
                       type="text"
                       id="Fphone"
                       class="Finp1"
-                      value="Phone number"
-                      title="Phone number"
-                      onfocus="if(this.value==this.title)this.value=''"
-                      onblur="if(this.value==''){this.value=this.title}"
+                      placeholder="Phone number"
+                      
                     />
                   </div>
 
@@ -243,10 +238,8 @@
                       type="text"
                       id="Fcomp"
                       class="Finp1"
-                      value="Company"
-                      title="Company"
-                      onfocus="if(this.value==this.title)this.value=''"
-                      onblur="if(this.value==''){this.value=this.title}"
+                      placeholder="Company"
+                     
                     />
                   </div>
                   <div class="col6">
@@ -254,10 +247,8 @@
                       type="text"
                       id="Femail"
                       class="Finp1"
-                      value="E-mail"
-                      title="E-mail"
-                      onfocus="if(this.value==this.title)this.value=''"
-                      onblur="if(this.value==''){this.value=this.title}"
+                      placeholder="E-mail"
+                     
                     />
                   </div>
 
@@ -266,24 +257,23 @@
                       rows="7"
                       id="Fquest"
                       class="Finp1"
-                      title="Message"
-                      onfocus="if(this.value==this.title)this.value=''"
-                      onblur="if(this.value==''){this.value=this.title}"
+                      placeholder="Message"
+                     
                     >
 Message</textarea
                     >
-                    <br /><br /><a
-                      href="#"
+                    <br /><br /><button
+                    
                       class="Fsend"
-                      onClick="SendQuest(); return false;"
-                      >Submit</a
+                     type="submit"
+                      >Submit</button
                     >
                   </div>
                 </div>
+              </form>
 
-                <hr class="hrhid" />
+              
               </div>
-              <hr class="hrhid" />
             </div>
           </div>
         </div>
@@ -298,9 +288,10 @@ Message</textarea
               &nbsp;
               <div class="Fsize14 col12 animated fadeInUpShort delay-250">
                 <a class="gray" href="./services.html">Services</a> -
+                <a class="gray" href="./about.html">About</a> -
                 <a class="gray" href="./faqs.html">Faq</a> -
                 <a class="gray" href="/contact.html">Contact</a> - &copy;
-                2024&nbsp;100% Studios&nbsp;Ltd. All rights reserved
+                2024&nbsp;PhotoRefiner. All rights reserved
               </div>
 
               <hr class="hrhid" />
