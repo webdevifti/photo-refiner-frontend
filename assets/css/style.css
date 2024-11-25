@@ -59,8 +59,7 @@ html {
 .T {
   background-color: #fff;
 }
-#T {
-}
+
 .M {
   background-color: #fff;
 }
@@ -71,8 +70,7 @@ html {
 .B {
   min-height: 60px;
 }
-#B {
-}
+
 
 body {
   height: 100%;
@@ -2339,3 +2337,20 @@ input[type="button"]:hover,
     width: 50%;
   }
 }
+@media screen and (max-width: 320px) {
+  .m_13{
+    margin-top: 370px;
+  }
+  .home-banner-content{
+    margin-top: 0px;
+  }
+ .home-banner-content h1{
+  font-size: 40px;
+  margin-bottom: 0px;
+
+ }
+ .home-banner-content span{
+  font-size: 18px;
+ }
+}
+
