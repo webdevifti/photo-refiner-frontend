@@ -78,7 +78,7 @@ body {
   position: relative;
   font-family: adobe-caslon-pro, serif;
   font-style: normal;
-  color: #114261;
+  color: #000;
   font-size: 22px;
   font-weight: 400;
   margin: 0;
@@ -180,7 +180,7 @@ body {
   bottom: 0;
   right: 40px;
   padding: 10px 20px;
-  background-color: #114261;
+  background-color: #000;
   color: #fff;
   cursor: pointer;
   font-family: sans-serif;
@@ -219,7 +219,7 @@ body {
   width: 100%;
   height: 52px;
   text-align: center;
-  background-color: #114261;
+  background-color: #000;
   z-index: 3;
 }
 .TopMenuBlackDiv .max1200 {
@@ -495,11 +495,11 @@ body {
 }
 .Fsize14 {
   font-size: 14px;
-  color: #114261;
+  color: #000;
 }
 
 .gray {
-  color: #114261 !important;
+  color: #000 !important;
 }
 .gray:hover {
   color: #000 !important;
@@ -576,7 +576,7 @@ h5 {
   padding: 0 0 20px 0;
   margin: 0;
   font-weight: 400;
-  color: #114261;
+  color: #000;
 }
 h1 {
   font-size: 60px;
@@ -603,7 +603,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #114261;
+  color: #000;
   text-decoration: none;
 }
 .Dbutt {
@@ -2218,7 +2218,7 @@ input[type="button"]:hover,
   right: -100%;
   width: calc(100% - 60%);
   height: 100%;
-  background-color: #114261;
+  background-color: #000;
   z-index: 9999;
   transition: right 0.3s ease;
   padding-left: 20px;
