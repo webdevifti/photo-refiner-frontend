@@ -2304,6 +2304,11 @@ input[type="button"]:hover,
 .portfolio-grid a img{
   width: 100%;
 }
+
+.home-why-choose-content{
+  width: 70%;
+  margin: 40px auto;
+}
 @media screen and (max-width: 1200px) {
   .home-banner-section {
     flex-direction: column;
@@ -2338,6 +2343,10 @@ input[type="button"]:hover,
   }
 }
 @media screen and (max-width: 450px) {
+  .home-why-choose-content{
+    width: 95%;
+    margin: 60px auto;
+  }
   .m_13{
     margin-top: 370px;
   }
